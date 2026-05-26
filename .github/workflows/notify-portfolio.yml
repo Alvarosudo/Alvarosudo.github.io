@@ -22,6 +22,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
-          repository: Franion03/franion03.github.io
+          repository: Alvarosudo/Alvarosudo.github.io
           event-type: project-updated
           client-payload: '{"repo": "${{ github.repository }}", "url": "${{ github.event.repository.html_url }}"}'

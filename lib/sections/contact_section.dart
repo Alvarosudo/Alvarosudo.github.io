@@ -21,7 +21,7 @@ class ContactSection extends StatelessWidget {
           const SizedBox(height: 48),
           // Email
           InkWell(
-            onTap: () => launchUrl(Uri.parse('mailto:fran.quiles00@gmail.com')),
+            onTap: () => launchUrl(Uri.parse('mailto:alvaro.quiles00@gmail.com')),
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 20),
               decoration: BoxDecoration(
@@ -29,14 +29,14 @@ class ContactSection extends StatelessWidget {
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(color: accentColor.withValues(alpha: 0.2)),
               ),
-              child: Text('fran.quiles00@gmail.com',
+              child: Text('alvaro.quiles00@gmail.com',
                 style: GoogleFonts.jetBrainsMono(color: accentColor, fontSize: 16)),
             ),
           ),
           const SizedBox(height: 12),
           // Resume download
           InkWell(
-            onTap: () => launchUrl(Uri.parse('https://franion03.github.io/resume.pdf')),
+            onTap: () => launchUrl(Uri.parse('https://alvarosudo.github.io/resume.pdf')),
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               decoration: BoxDecoration(
@@ -57,9 +57,9 @@ class ContactSection extends StatelessWidget {
           const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _SocialLink(label: 'GitHub', url: 'https://github.com/franion03'),
+              _SocialLink(label: 'GitHub', url: 'https://github.com/alvarosudo'),
               SizedBox(width: 24),
-              _SocialLink(label: 'LinkedIn', url: 'https://www.linkedin.com/in/francisco-javier-quiles-ruiz-b25563195/'),
+              _SocialLink(label: 'LinkedIn', url: 'https://www.linkedin.com/in/alvaro-quiles-ruiz/'),
             ],
           ),
         ],
@@ -103,7 +103,7 @@ class FooterSection extends StatelessWidget {
             TextSpan(
               children: [
                 TextSpan(text: '© 2026 ', style: GoogleFonts.jetBrainsMono(color: bodyTextColor, fontSize: 10)),
-                TextSpan(text: 'Francisco Javier Quiles Ruiz', style: GoogleFonts.jetBrainsMono(color: accentColor, fontSize: 10)),
+                TextSpan(text: 'Álvaro Quiles Ruiz', style: GoogleFonts.jetBrainsMono(color: accentColor, fontSize: 10)),
                 TextSpan(text: '. All rights reserved.', style: GoogleFonts.jetBrainsMono(color: bodyTextColor, fontSize: 10)),
               ],
             ),

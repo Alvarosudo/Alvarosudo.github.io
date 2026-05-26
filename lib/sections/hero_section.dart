@@ -44,12 +44,12 @@ class HeroSection extends StatelessWidget {
           ),
           const SizedBox(height: 32),
           // Name
-          Text('Francisco Javier\nQuiles Ruiz',
+          Text('Álvaro\nQuiles Ruiz',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.headlineLarge!.copyWith(fontSize: isMobile ? 36 : 48)),
           const SizedBox(height: 12),
           // Handle
-          Text('@franion03', style: AppTheme.sectionComment),
+          Text('@alvarosudo', style: AppTheme.sectionComment),
           const SizedBox(height: 20),
           // Tagline
           Text(
@@ -73,9 +73,9 @@ class HeroSection extends StatelessWidget {
           const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _SocialIcon(icon: Icons.code, url: 'https://github.com/franion03'),
+              _SocialIcon(icon: Icons.code, url: 'https://github.com/alvarosudo'),
               SizedBox(width: 16),
-              _SocialIcon(icon: Icons.link, url: 'https://www.linkedin.com/in/francisco-javier-quiles-ruiz-b25563195/'),
+              _SocialIcon(icon: Icons.link, url: 'https://www.linkedin.com/in/alvaro-quiles-ruiz/'),
             ],
           ),
           const SizedBox(height: 40),

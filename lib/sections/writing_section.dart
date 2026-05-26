@@ -33,7 +33,7 @@ class WritingSection extends StatelessWidget {
           const SizedBox(height: 32),
           // CTA to blog platform
           InkWell(
-            onTap: () => launchUrl(Uri.parse('https://dev.to/franion03')),
+            onTap: () => launchUrl(Uri.parse('https://dev.to/alvarosudo')),
             borderRadius: BorderRadius.circular(4),
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
@@ -126,21 +126,21 @@ const _articles = [
   _Article(
     title: 'Building a Kubernetes Home Lab on Raspberry Pi',
     excerpt: 'From zero to production-grade K8s cluster. Covers k3s provisioning, MetalLB, Longhorn storage, and GitOps with ArgoCD — all on ARM.',
-    url: 'https://dev.to/franion03/kubernetes-home-lab',
+    url: 'https://dev.to/alvarosudo/kubernetes-home-lab',
     platform: 'dev.to',
     date: '2026',
   ),
   _Article(
     title: 'CI/CD Pipelines That Don\'t Break at 3 AM',
     excerpt: 'Designing resilient deployment pipelines with canary releases, automated rollbacks, and observability-first alerting.',
-    url: 'https://dev.to/franion03/cicd-pipelines',
+    url: 'https://dev.to/alvarosudo/cicd-pipelines',
     platform: 'dev.to',
     date: '2026',
   ),
   _Article(
     title: 'Infrastructure as Code: Terraform Patterns at Scale',
     excerpt: 'Module composition, state management, and drift detection for multi-environment AWS deployments.',
-    url: 'https://dev.to/franion03/terraform-patterns',
+    url: 'https://dev.to/alvarosudo/terraform-patterns',
     platform: 'dev.to',
     date: '2026',
   ),

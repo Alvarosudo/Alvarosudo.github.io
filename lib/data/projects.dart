@@ -16,23 +16,23 @@ class ProjectData {
 
 const List<ProjectData> projects = [
   ProjectData(
-    title: 'Franion03 - e-commerce-k8s-stack',
+    title: 'Alvarosudo - e-commerce-k8s-stack',
     description: 'This repository implements a GitOps-first Kubernetes infrastructure for a multi-vendor ecommerce company with a robot-driven warehouse. All services are self-hosted on Kubernetes, managed by ArgoCD...',
-    url: 'https://github.com/Franion03/e-commerce-k8s-stack',
+    url: 'https://github.com/Alvarosudo/e-commerce-k8s-stack',
     tags: ['Kubernetes', 'ArgoCD', 'E-Commerce'],
     image: 'assets/project_images/project_0.png',
   ),
   ProjectData(
-    title: 'Franion03 - chess_ai_reinforcementlearning',
+    title: 'Alvarosudo - chess_ai_reinforcementlearning',
     description: 'In this awesome repo, we&#39;re going to develop three different chess AI models to compare them! First, we&#39;ll play against ourselves using reinforcement learning. Then, we&#39;ll play against ...',
-    url: 'https://github.com/Franion03/chess_ai_reinforcementlearning',
+    url: 'https://github.com/Alvarosudo/chess_ai_reinforcementlearning',
     tags: ['AI', 'Reinforcement Learning'],
     image: 'assets/project_images/project_1.jpg',
   ),
   ProjectData(
-    title: 'Franion03 - aqua-os',
+    title: 'Alvarosudo - aqua-os',
     description: 'Club operations platform for water polo teams. Combines a React dashboard, a FastAPI backend, and CrewAI agents to automate scheduling, training plans, lineups, availability, and social media publi...',
-    url: 'https://github.com/Franion03/aqua-os',
+    url: 'https://github.com/Alvarosudo/aqua-os',
     tags: ['React', 'FastAPI', 'CrewAI', 'AI'],
     image: 'assets/project_images/project_2.jpg',
   )

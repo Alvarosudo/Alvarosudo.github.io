@@ -32,7 +32,7 @@ class NavBar extends StatelessWidget {
       child: Row(
         children: [
           Text(
-            'franquiles',
+            'alvaroquiles',
             style: GoogleFonts.jetBrainsMono(
               color: accentColor,
               fontSize: 16,

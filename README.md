@@ -1,4 +1,4 @@
-# franion03.github.io
+# Alvarosudo.github.io
 
 Personal portfolio built with Flutter Web. Terminal aesthetic, dark theme.
 
@@ -21,7 +21,7 @@ jobs:
       - uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
-          repository: Franion03/franion03.github.io
+          repository: Alvarosudo/Alvarosudo.github.io
           event-type: project-updated
           client-payload: '{"repo": "${{ github.repository }}", "url": "${{ github.event.repository.html_url }}"}'
 ```
@@ -44,7 +44,7 @@ jobs:
 Edit `scripts/projects.yaml`:
 ```yaml
 projects:
-  - url: https://github.com/Franion03/your-new-project
+  - url: https://github.com/Alvarosudo/your-new-project
 ```
 
 On the next build, it will appear in the portfolio automatically.

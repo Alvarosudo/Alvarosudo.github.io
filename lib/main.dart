@@ -24,7 +24,7 @@ class PortfolioApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Francisco Javier Quiles Ruiz — DevSecOps',
+      title: 'Álvaro Quiles Ruiz — DevSecOps',
       theme: AppTheme.darkTheme,
       home: const SplashScreen(),
     );

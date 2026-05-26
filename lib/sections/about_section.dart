@@ -57,7 +57,7 @@ class _AboutTerminal extends StatelessWidget {
   Widget build(BuildContext context) {
     return const TerminalWidget(lines: [
       r'$ whoami',
-      r'> francisco_quiles',
+      r'> alvaro_quiles',
       r'',
       r'$ cat tools.txt',
       r'> kubernetes, docker, terraform,',
@@ -78,7 +78,7 @@ class _AboutBio extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "I'm Francisco Javier Quiles Ruiz, a DevSecOps Engineer based in Bern, Switzerland. "
+          "I'm Álvaro Quiles Ruiz, a DevSecOps Engineer based in Bern, Switzerland. "
           "I specialize in building secure, scalable cloud infrastructure — from Kubernetes clusters "
           "to automated CI/CD pipelines.\n\n"
           "My work spans container orchestration, infrastructure as code, security automation, "

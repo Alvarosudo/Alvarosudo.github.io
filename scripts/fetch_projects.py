@@ -167,7 +167,7 @@ if __name__ == "__main__":
                 'name': 'Sample Project',
                 'description': 'Description',
                 'image': 'assets/project_images/project_0.png',
-                'link': 'https://github.com/Franion03'
+                'link': 'https://github.com/Alvarosudo'
             }
         ]
 
